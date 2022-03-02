@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 .header{
     background-color: white;
     height: 60px;
@@ -39,7 +43,28 @@
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 1px solid white;
-    
+}
+
+.quadrato2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid white;
+}
+
+.quadrato3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid white;
+}
+
+.none{
+    display: none;
 }
 
 .footer{
