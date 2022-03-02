@@ -20,6 +20,26 @@
 .container{
     background-color: #7fffd4;
     height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_game{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid white;
+    
 }
 
 .footer{
