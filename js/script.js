@@ -19,6 +19,7 @@ btnPlay.addEventListener('click', myGame);
 
 function myGame() {
 
+    containerGame.innerHTML = '';
     if (difficultInput.value == 'Easy') {
         difficultInput.value = '';
         for (let i = 1; i <= 49; i++) {
