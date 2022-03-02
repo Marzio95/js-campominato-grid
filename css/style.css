@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#button_play{
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.container{
+    background-color: #7fffd4;
+    height: 85vh;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.edit{
+    margin-left: 4rem;
+}
