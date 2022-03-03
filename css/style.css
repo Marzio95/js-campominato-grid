@@ -42,7 +42,8 @@ html{
     justify-content: center;
     width: calc(100% / 7);
     height: calc(100% / 7);
-    border: 1px solid white;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .quadrato2{
@@ -51,7 +52,8 @@ html{
     justify-content: center;
     width: calc(100% / 9);
     height: calc(100% / 9);
-    border: 1px solid white;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .quadrato3{
@@ -60,19 +62,23 @@ html{
     justify-content: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 1px solid white;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
-.none{
-    display: none;
-}
+
 
 .footer{
     display: flex;
     align-items: center;
-    height: 55px;
+    height: 60px;
 }
 
 .edit{
     margin-left: 4rem;
+}
+
+.colore_new{
+    background-color: blueviolet;
+    color: white;
 }
